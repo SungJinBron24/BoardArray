@@ -25,13 +25,13 @@ class BoardArray : public Board {
                 }
             }
 
-            if (pos == -1) pos = index;
+            if (pos == -1) {
+                pos = index;
+            }
 
-            if (index >= SIZE) {
-                if (pos >= SIZE) {
+            if (index >= SIZE  && pos == SIZE) {
                     cout << entry->name << "'s score is too low to be added!" << "\n";
                     return;
-                }
             }
 
             if (index < SIZE) {
