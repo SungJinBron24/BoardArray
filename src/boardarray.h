@@ -16,7 +16,6 @@ class BoardArray : public Board {
         void add(Entry* entry) {
             // TODO: IMPLEMENT THIS FUNCTION
             // ALGORITHM IS PROVIDED IN INSTRUCTIONS.TXT
-            //Test
             int pos = -1;
 
             for (int i = 0; i < index; i++) {
