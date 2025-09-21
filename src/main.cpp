@@ -2,11 +2,14 @@
 #include "boardarray.h"
 using namespace std;
 
+//This repo belongs to SungJinBron
+
 int main() {
 	Entry* player1 = new Entry();
 	Board* board = new BoardArray();
     char ans;
     int score;
+
 	do {
 		cout << "Op: ";
 		cin >> ans;
